@@ -2,6 +2,8 @@ import 'package:flutter/cupertino.dart';
 import "package:flutter/material.dart";
 import 'dart:math' as math;
 
+import 'package:instagram_clone/models/Post.dart';
+
 class PostWidget extends StatefulWidget {
   @override
   _PostWidgetState createState() => _PostWidgetState();
@@ -10,6 +12,58 @@ class PostWidget extends StatefulWidget {
 class _PostWidgetState extends State<PostWidget> {
   bool isLiked = false;
   bool isBookmarked = false;
+  List<Post> posts = [
+    Post(
+      author: "yawen_heng",
+      profilePic: "0.jpg",
+      postPic: "9.jpg",
+    ),
+    Post(
+      author: "rita_higgins",
+      profilePic: "1.jpg",
+      postPic: "8.jpg",
+    ),
+    Post(
+      author: "bob_arnold",
+      profilePic: "2.jpg",
+      postPic: "7.jpg",
+    ),
+    Post(
+      author: "bob_arnold",
+      profilePic: "3.jpg",
+      postPic: "6.jpg",
+    ),
+    Post(
+      author: "bob_arnold",
+      profilePic: "4.jpg",
+      postPic: "5.jpg",
+    ),
+    Post(
+      author: "bob_arnold",
+      profilePic: "5.jpg",
+      postPic: "4.jpg",
+    ),
+    Post(
+      author: "rita_higgins",
+      profilePic: "6.jpg",
+      postPic: "3.jpg",
+    ),
+    Post(
+      author: "bob_arnold",
+      profilePic: "7.jpg",
+      postPic: "2.jpg",
+    ),
+    Post(
+      author: "bob_arnold",
+      profilePic: "8.jpg",
+      postPic: "1.jpg",
+    ),
+    Post(
+      author: "bob_arnold",
+      profilePic: "9.jpg",
+      postPic: "4.jpg",
+    ),
+  ];
 
   @override
   Widget build(BuildContext context) {
