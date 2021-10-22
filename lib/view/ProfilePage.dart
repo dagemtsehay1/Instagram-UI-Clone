@@ -12,6 +12,15 @@ class ProfilePage extends StatelessWidget {
             letterSpacing: 1,
           ),
         ),
+        actions: <Widget>[
+          IconButton(
+            onPressed: () {},
+            icon: Icon(
+              Icons.more_horiz,
+              color: Colors.black,
+            ),
+          ),
+        ],
         centerTitle: true,
       ),
       body: Center(
