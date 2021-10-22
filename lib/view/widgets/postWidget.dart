@@ -10,8 +10,6 @@ class PostWidget extends StatefulWidget {
 }
 
 class _PostWidgetState extends State<PostWidget> {
-  bool isBookmarked = false;
-
   List<Post> posts = [
     Post(
       author: "yawen_heng",
@@ -184,7 +182,7 @@ class _PostWidgetState extends State<PostWidget> {
                         ],
                       ),
                       IconButton(
-                        icon: isBookmarked
+                        icon: e.isBookmarked
                             ? Icon(
                                 Icons.bookmark,
                                 size: 30,
@@ -197,7 +195,7 @@ class _PostWidgetState extends State<PostWidget> {
                               ),
                         onPressed: () {
                           setState(() {
-                            isBookmarked = !isBookmarked;
+                            e.isBookmarked = !e.isBookmarked;
                           });
                         },
                       ),
