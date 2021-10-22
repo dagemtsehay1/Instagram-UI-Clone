@@ -26,7 +26,7 @@
 
 | ![Screenshot 0](https://github.com/dagemtsehay1/Instagram-UI-Clone/blob/main/Screenshots/0.JPG) | ![Screenshot 1](https://github.com/dagemtsehay1/Instagram-UI-Clone/blob/main/Screenshots/1.JPG) | ![Screenshot 2](https://github.com/dagemtsehay1/Instagram-UI-Clone/blob/main/Screenshots/2.JPG) |
 | ----------- | ----------- | ----------- |
-| ![Screenshot 0](https://github.com/dagemtsehay1/Instagram-UI-Clone/blob/main/Screenshots/3.JPG) | ![Screenshot 0](https://github.com/dagemtsehay1/Instagram-UI-Clone/blob/main/Screenshots/4.JPG) |
+| ![Screenshot 0](https://github.com/dagemtsehay1/Instagram-UI-Clone/blob/main/Screenshots/3.JPG) | ![Screenshot 0](https://github.com/dagemtsehay1/Instagram-UI-Clone/blob/main/Screenshots/4.JPG) | ![Screenshot 0](https://github.com/dagemtsehay1/Instagram-UI-Clone/blob/main/Screenshots/5.JPG) |
 
 ## 🧑🏽 Author
 
