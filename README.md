@@ -1,19 +1,19 @@
 # Instagram UI Clone
 
-    > Instagram UI Clone made with Flutter
+Instagram UI Clone made with Flutter
 
 ## ⚠ Note
 
-    This repository is still under development and I will continue to add more features to it.
+This repository is still under development and I will continue to add more features to it.
 
 ## Getting Strat
 
-    1 . [Setup Flutter](https://flutter.dev/docs/get-started/install)
-    2 . Clone this repo
-        ```
-            $ git clone https://github.com/dagemtsehay1/Instagram-UI-Clone.git instagram_clone
-            $ cd instagram_clone/
-        ```
+1 . [Setup Flutter](https://flutter.dev/docs/get-started/install)
+2 . Clone this repo
+    ```
+        $ git clone https://github.com/dagemtsehay1/Instagram-UI-Clone.git instagram_clone
+        $ cd instagram_clone/
+    ```
 
 ## 🧪 Test
 
