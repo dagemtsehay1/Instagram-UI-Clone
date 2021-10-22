@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import "package:flutter/material.dart";
 import 'dart:math' as math;
 
@@ -147,6 +148,46 @@ class _PostWidgetState extends State<PostWidget> {
                         isBookmarked = !isBookmarked;
                       });
                     },
+                  ),
+                ],
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.only(
+                left: 20,
+                top: 0,
+                right: 20,
+                bottom: 10,
+              ),
+              child: Row(
+                children: <Widget>[
+                  Text(
+                    "Liked by ",
+                    style: TextStyle(
+                      letterSpacing: 1,
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
+                  Text(
+                    "dagem_tsehay",
+                    style: TextStyle(
+                      letterSpacing: 1,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  Text(
+                    " and",
+                    style: TextStyle(
+                      letterSpacing: 1,
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
+                  Text(
+                    " 518 Others",
+                    style: TextStyle(
+                      letterSpacing: 1,
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
                 ],
               ),
