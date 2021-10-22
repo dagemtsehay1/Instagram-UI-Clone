@@ -27,6 +27,10 @@
 | ![Screenshot 0](https://github.com/dagemtsehay1/Instagram-UI-Clone/blob/main/Screenshots/0.JPG) | ![Screenshot 1](https://github.com/dagemtsehay1/Instagram-UI-Clone/blob/main/Screenshots/1.JPG) | ![Screenshot 2](https://github.com/dagemtsehay1/Instagram-UI-Clone/blob/main/Screenshots/2.JPG) |
 | ----------- | ----------- | ----------- |
 
-## 🧑 Author
+## 🧑🏽 Author
 
-    - [Dagem Tsehay](https://github.com/dagemtsehay1/)
+- [Dagem Tsehay](https://github.com/dagemtsehay1/)
+
+## License
+
+> This project is licensed under the MIT [License](https://github.com/dagemtsehay1/Instagram-UI-Clone/blob/main/LICENSE)

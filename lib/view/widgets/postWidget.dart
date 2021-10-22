@@ -11,7 +11,7 @@ class PostWidget extends StatefulWidget {
 
 class _PostWidgetState extends State<PostWidget> {
   bool isBookmarked = false;
-  bool isLiked = false;
+
   List<Post> posts = [
     Post(
       author: "yawen_heng",
@@ -146,7 +146,7 @@ class _PostWidgetState extends State<PostWidget> {
                       Row(
                         children: <Widget>[
                           IconButton(
-                            icon: isLiked
+                            icon: e.isLiked
                                 ? Icon(
                                     Icons.favorite,
                                     color: Colors.pink,
@@ -159,7 +159,7 @@ class _PostWidgetState extends State<PostWidget> {
                                   ),
                             onPressed: () {
                               setState(() {
-                                isLiked = !isLiked;
+                                e.isLiked = !e.isLiked;
                               });
                             },
                           ),
@@ -168,11 +168,7 @@ class _PostWidgetState extends State<PostWidget> {
                               Icons.add_comment,
                               size: 30,
                             ),
-                            onPressed: () {
-                              setState(() {
-                                isLiked = !isLiked;
-                              });
-                            },
+                            onPressed: () {},
                           ),
                           Transform.rotate(
                             angle: -math.pi / 4,
