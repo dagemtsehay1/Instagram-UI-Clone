@@ -28,13 +28,53 @@ class NotificationPage extends StatelessWidget {
           ],
         ),
       ),
-      body: Center(
-        child: Text(
-          "Notification",
-          style: TextStyle(
-            fontSize: 40,
-          ),
-        ),
+      body: ListView.builder(
+        physics: BouncingScrollPhysics(),
+        itemCount: 20,
+        itemBuilder: (context, index) {
+          return Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: ListTile(
+              leading: Image(
+                image: AssetImage("images/8.jpg"),
+              ),
+              title: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  Text(
+                    "dagem_tsehay",
+                    style: TextStyle(
+                      color: Colors.black,
+                      letterSpacing: 1,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  SizedBox(
+                    height: 10,
+                  ),
+                  Text(
+                    "liked your photo",
+                    style: TextStyle(
+                      color: Colors.black,
+                      letterSpacing: 1,
+                    ),
+                  ),
+                  Text(
+                    "3d",
+                    style: TextStyle(
+                      color: Colors.grey,
+                      letterSpacing: 1,
+                    ),
+                  ),
+                ],
+              ),
+              trailing: Image(
+                image: AssetImage("images/3.jpg"),
+                width: 50,
+              ),
+            ),
+          );
+        },
       ),
     );
   }
