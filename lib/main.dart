@@ -23,6 +23,23 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return new SplashScreen(
+        title: Text(
+          "Instagram",
+          style: TextStyle(
+            color: Colors.white,
+            letterSpacing: 2,
+            fontWeight: FontWeight.bold,
+            fontSize: 27,
+          ),
+        ),
+        loadingText: Text(
+          "From FaceBook",
+          style: TextStyle(
+              color: Colors.white,
+              fontSize: 17,
+              letterSpacing: 2,
+              fontWeight: FontWeight.bold),
+        ),
         seconds: 3,
         navigateAfterSeconds: new MainScreen(),
         image: new Image.asset('images/splashscreen.png'),
