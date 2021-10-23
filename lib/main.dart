@@ -40,7 +40,7 @@ class _MyAppState extends State<MyApp> {
               letterSpacing: 2,
               fontWeight: FontWeight.bold),
         ),
-        seconds: 3,
+        seconds: 5,
         navigateAfterSeconds: new MainScreen(),
         image: new Image.asset('images/splashscreen.png'),
         gradientBackground: LinearGradient(
