@@ -4,6 +4,7 @@ import 'package:instagram_clone/view/HomePage.dart';
 import 'package:instagram_clone/view/NotficationPage.dart';
 import 'package:instagram_clone/view/ProfilePage.dart';
 import 'package:instagram_clone/view/SearchPage.dart';
+import 'package:splashscreen/splashscreen.dart';
 
 void main() => runApp(
       MaterialApp(
@@ -22,6 +23,34 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+  @override
+  Widget build(BuildContext context) {
+    return new SplashScreen(
+        seconds: 3,
+        navigateAfterSeconds: new MainScreen(),
+        image: new Image.asset('images/splashscreen.png'),
+        gradientBackground: LinearGradient(
+          begin: Alignment.topCenter,
+          end: Alignment.bottomCenter,
+          stops: [0.7, 1.0],
+          colors: [
+            Colors.pink,
+            Colors.blueAccent,
+          ],
+        ),
+        styleTextUnderTheLoader: new TextStyle(),
+        photoSize: 50,
+        loaderColor: Colors.white);
+  }
+}
+
+// main screen
+class MainScreen extends StatefulWidget {
+  @override
+  _MainScreenState createState() => _MainScreenState();
+}
+
+class _MainScreenState extends State<MainScreen> {
   int currentScreen = 0;
   List<IconData> iconsList = [
     Icons.home,
