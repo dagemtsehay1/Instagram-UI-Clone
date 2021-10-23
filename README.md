@@ -8,6 +8,7 @@
 
 ## Getting Strat
 
+> you can download the `apk` file from [here](https://github.com/dagemtsehay1/Instagram-UI-Clone/releases/download/v0.0.1/instagram.clone.apk)
 1. [Setup Flutter](https://flutter.dev/docs/get-started/install)
 2. Clone this repo
 ```
